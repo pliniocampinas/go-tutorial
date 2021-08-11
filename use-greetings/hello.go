@@ -13,8 +13,7 @@ func main() {
 	// the time, source file, and line number.
 	log.SetPrefix("greetings: ")
 	log.SetFlags(0)
-	// message, err := greetings.Hello("Plato")
-	message, err := greetings.Hello("")
+	message, err := greetings.Hello("Plato")
 	// If an error was returned, print it to the console and
 	// exit the program.
 	if err != nil {
